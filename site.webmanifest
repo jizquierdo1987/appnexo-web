@@ -1,0 +1,9 @@
+{
+  "name": "AppNexo",
+  "short_name": "AppNexo",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#176bff",
+  "icons": []
+}

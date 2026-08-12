@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+<title id="title">AppNexo</title><desc id="desc">Imagen provisional reemplazable para AppNexo</desc>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07101D"/><stop offset="1" stop-color="#102A4E"/></linearGradient><linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#176BFF"/><stop offset="1" stop-color="#10B9A6"/></linearGradient></defs>
+<rect width="1200" height="630" rx="36" fill="url(#g)"/>
+<g opacity=".12" stroke="#FFFFFF"><path d="M0 139H1200"/><path d="M0 315H1200"/><path d="M0 491H1200"/><path d="M240 0V630"/><path d="M600 0V630"/><path d="M960 0V630"/></g>
+<circle cx="936" cy="189" r="113" fill="#176BFF" opacity=".14"/><circle cx="240" cy="491" r="145" fill="#10B9A6" opacity=".10"/>
+<rect x="84" y="63" width="192" height="42" rx="21" fill="#FFFFFF" opacity=".08"/><text x="108" y="91" fill="#A9B8CC" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" letter-spacing="3">APPNEXO</text>
+<rect x="84" y="170" width="144" height="8" rx="4" fill="url(#a)"/>
+<text x="84" y="271" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="54" font-weight="700">AppNexo</text>
+<text x="84" y="334" fill="#A9B8CC" font-family="Arial,Helvetica,sans-serif" font-size="26">Tecnología que conecta tu negocio.</text>
+<g transform="translate(804 334)"><rect width="276" height="158" rx="24" fill="#FFFFFF" opacity=".06" stroke="#FFFFFF" stroke-opacity=".18"/><circle cx="66" cy="57" r="18" fill="#176BFF"/><rect x="108" y="41" width="114" height="12" rx="6" fill="#FFFFFF" opacity=".65"/><rect x="108" y="66" width="78" height="10" rx="5" fill="#FFFFFF" opacity=".28"/></g>
+</svg>

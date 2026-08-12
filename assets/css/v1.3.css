@@ -1,0 +1,50 @@
+
+/* AppNexo V1.3 — bilingual static enhancements */
+.header-tools { display: flex; align-items: center; gap: 8px; }
+.language-switch { display: inline-flex; align-items: center; padding: 3px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+.language-switch button { min-width: 35px; height: 34px; padding: 0 8px; border: 0; border-radius: 9px; color: var(--text-faint); background: transparent; font-size: .72rem; font-weight: 800; letter-spacing: .04em; }
+.language-switch button:hover { color: var(--text); background: var(--bg-soft); }
+.language-switch button.active { color: var(--text); background: var(--primary-soft); }
+.nav-menu .header-tools { margin-left: -8px; }
+.nav-actions-mobile .language-switch { height: 42px; }
+.nav-actions-mobile .language-switch button { height: 34px; }
+.mobile-only-language { display: none; }
+.desktop-language { display: inline-flex; }
+.static-form-status { margin-top: 14px; color: var(--text-soft); font-size: .78rem; }
+.contact-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 26px; }
+.catalog-note { margin-bottom: 34px; padding: 22px 24px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--bg-soft); }
+.catalog-note p { margin: 6px 0 0; }
+.skills-cloud { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 26px; }
+.skills-cloud span { padding: 8px 11px; border: 1px solid var(--line); border-radius: 999px; color: var(--text-soft); background: var(--surface); font-size: .74rem; font-weight: 700; }
+.skills-cloud.large { margin-top: 28px; }
+.identity-note { display: inline-flex; flex-direction: column; gap: 3px; margin-top: 16px; padding: 14px 16px; border-left: 3px solid var(--accent); background: var(--bg-soft); }
+.projects-list { display: grid; gap: 28px; }
+.project-result { display: grid; gap: 4px; margin: 22px 0; padding: 16px 18px; border-radius: 14px; background: var(--bg-soft); }
+.project-result span { color: var(--text-soft); font-size: .88rem; }
+.filter-button { padding: 9px 14px; border: 1px solid var(--line); border-radius: 999px; color: var(--text-soft); background: var(--surface); font-size: .78rem; font-weight: 750; }
+.filter-button.active, .filter-button:hover { color: var(--text); border-color: var(--primary); background: var(--primary-soft); }
+.empty-state { padding: 34px; text-align: center; border: 1px dashed var(--line-strong); border-radius: var(--radius); }
+.process-card { padding: 26px 22px 10px 0; border-top: 1px solid var(--line); }
+.process-card > span { display: block; margin-bottom: 24px; color: var(--primary); font: 800 .82rem 'Manrope', sans-serif; }
+.contact-option { display: flex; align-items: center; gap: 14px; margin-top: 20px; }
+.contact-option > span { width: 42px; height: 42px; display: grid; place-items: center; flex: 0 0 auto; border: 1px solid var(--line); border-radius: 12px; color: var(--primary); background: var(--surface); font-size: .72rem; font-weight: 850; }
+.contact-option > div { display: flex; flex-direction: column; }
+.contact-option small { color: var(--text-faint); }
+.external-socials { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 30px; }
+.external-socials a { padding: 9px 13px; border: 1px solid var(--line); border-radius: 999px; color: var(--text-soft); font-size: .76rem; font-weight: 700; }
+.external-socials a:hover { color: var(--text); border-color: var(--line-strong); }
+.language-note { margin-top: 18px; color: var(--text-faint); font-size: .74rem; }
+.js-only { display: none; }
+.js .js-only { display: initial; }
+
+@media (max-width: 1024px) {
+  .desktop-language { display: none; }
+  .mobile-only-language { display: inline-flex; }
+  .nav-menu .header-tools { margin-left: 0; margin-top: 12px; }
+}
+@media (max-width: 760px) {
+  .nav-actions-mobile { gap: 6px; }
+  .nav-actions-mobile .language-switch button { min-width: 32px; padding-inline: 6px; }
+  .contact-actions { flex-direction: column; }
+  .contact-actions .button { width: 100%; }
+}
