@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480">
+  <rect width="800" height="480" fill="#0b2340"/>
+  <circle cx="690" cy="70" r="180" fill="#0f766e" opacity=".28"/>
+  <circle cx="110" cy="440" r="180" fill="#2563eb" opacity=".18"/>
+
+  <rect x="70" y="75" width="660" height="330" rx="28" fill="#f8fafc"/>
+  <rect x="70" y="75" width="660" height="58" rx="28" fill="#e8f1fa"/>
+
+  <circle cx="105" cy="104" r="8" fill="#94a3b8"/>
+  <circle cx="130" cy="104" r="8" fill="#cbd5e1"/>
+
+  <text x="110" y="190"
+        font-family="Arial, sans-serif"
+        font-size="24"
+        font-weight="700"
+        fill="#0f172a">ContaEscolar</text>
+
+  <text x="110" y="222"
+        font-family="Arial, sans-serif"
+        font-size="14"
+        fill="#64748b">Gestión educativa · SaaS</text>
+
+  <rect x="110" y="260" width="170" height="76" rx="14" fill="#e0f2fe"/>
+  <rect x="300" y="260" width="170" height="76" rx="14" fill="#dcfce7"/>
+  <rect x="490" y="260" width="170" height="76" rx="14" fill="#fef3c7"/>
+
+  <text x="135" y="305" font-family="Arial" font-size="15" font-weight="700" fill="#0f172a">Instituciones</text>
+  <text x="333" y="305" font-family="Arial" font-size="15" font-weight="700" fill="#0f172a">Familias</text>
+  <text x="525" y="305" font-family="Arial" font-size="15" font-weight="700" fill="#0f172a">Gestión</text>
+</svg>
